@@ -58,7 +58,7 @@ fun ResponseInterceptionTestScreen() {
 
     Column(modifier = Modifier.fillMaxSize()) {
         WebGLWebView(
-            startPath = "prototype/index.html",
+            startPath = "test/index.html",
             reader = reader,
             jsBridge = bridge,
             controller = controller,

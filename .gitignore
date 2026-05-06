@@ -5,6 +5,7 @@ libs/core/composeResources/files/prototype/
 build/
 .gradle/
 local.properties
+ios-app/module.xcodeproj
 
 # ── Kotlin / JVM ──────────────────────────────────────────────────────────────
 *.class
