@@ -1,7 +1,5 @@
 # ── Private / dev-only content ────────────────────────────────────────────────
 libs/core/composeResources/files/prototype/
-LATER.md
-educate.md
 
 # ── Amper / Gradle build outputs ──────────────────────────────────────────────
 build/
@@ -30,8 +28,6 @@ DerivedData/
 *.xcworkspace/xcuserdata/
 .swiftpm/
 
-# ── Claude Code local config ───────────────────────────────────────────────────
-.claude/
 
 # ── macOS ─────────────────────────────────────────────────────────────────────
 .DS_Store
