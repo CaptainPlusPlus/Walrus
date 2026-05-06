@@ -1,3 +1,8 @@
+![Kotlin Multiplatform](https://img.shields.io/badge/Kotlin%20Multiplatform-KMP-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-API%2024%2B-3DDC84?style=flat-square&logo=android&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-14%2B-000000?style=flat-square&logo=apple&logoColor=white)
+![Desktop JVM](https://img.shields.io/badge/Desktop-JVM%2011%2B-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+
 # Walrus  🦭🦷
 ### A Kotlin Multiplatform webgl-wrapper
 
@@ -28,8 +33,9 @@ The folder name becomes the `startPath` prefix. The entry point must be `index.h
 > ```
 > aaptOptions { noCompress 'br', 'gz', 'wasm' }
 > ```
->  **Critical note for AAPT usage:**
 > 
+>  **Critical note for AAPT usage:**\
+> https://www.youtube.com/watch?v=ekr2nIex040
 > [![Watch on YouTube](https://img.youtube.com/vi/ekr2nIex040/hqdefault.jpg)](https://www.youtube.com/watch?v=ekr2nIex040)
 
 
