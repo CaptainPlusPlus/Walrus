@@ -34,8 +34,10 @@ The folder name becomes the `startPath` prefix. The entry point must be `index.h
 > aaptOptions { noCompress 'br', 'gz', 'wasm' }
 > ```
 > 
->  **Critical note for AAPT usage:**\
+>  **Critical note for AAPT usage:**
+>
 > https://www.youtube.com/watch?v=ekr2nIex040
+> 
 > [![Watch on YouTube](https://img.youtube.com/vi/ekr2nIex040/hqdefault.jpg)](https://www.youtube.com/watch?v=ekr2nIex040)
 
 
