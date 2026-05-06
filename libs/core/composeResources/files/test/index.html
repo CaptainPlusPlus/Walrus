@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Interception Test</title></head>
+<body>
+<h1>Interception Test</h1>
+<p>If this page rendered AND the text below is the file contents, interception works.</p>
+<pre id="fetched">Fetching hello.txt...</pre>
+<script>
+    console.log("index.html executed");
+    fetch("hello.txt")
+        .then(r => { console.log("fetch:", r.status, r.headers.get("content-type")); return r.text(); })
+        .then(text => { document.getElementById("fetched").textContent = text; })
+        .catch(err => { document.getElementById("fetched").textContent = "FAIL: " + err; });
+</script>
+</body>
+</html>

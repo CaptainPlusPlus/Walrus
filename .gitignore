@@ -1,0 +1,41 @@
+# ── Private / dev-only content ────────────────────────────────────────────────
+libs/core/composeResources/files/prototype/
+LATER.md
+educate.md
+
+# ── Amper / Gradle build outputs ──────────────────────────────────────────────
+build/
+.gradle/
+local.properties
+
+# ── Kotlin / JVM ──────────────────────────────────────────────────────────────
+*.class
+*.iml
+.kotlin/
+
+# ── IntelliJ / Android Studio ─────────────────────────────────────────────────
+.idea/
+
+# ── Android ───────────────────────────────────────────────────────────────────
+*.apk
+*.aab
+*.ap_
+*.keystore
+*.jks
+
+# ── iOS / Xcode ───────────────────────────────────────────────────────────────
+**/xcuserdata/
+**/*.xcuserstate
+DerivedData/
+*.xcworkspace/xcuserdata/
+.swiftpm/
+
+# ── Claude Code local config ───────────────────────────────────────────────────
+.claude/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+
+# ── Windows ───────────────────────────────────────────────────────────────────
+Thumbs.db
